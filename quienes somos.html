@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo/Styles.css">
+    <title>Quiénes somos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagenes/logosinnombre.png"></a>
+        <h1>Panadería Chan Estrella</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="quienes somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+	   <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagenes/LogoEmpresaCopia.png" alt="quienes_somos"  width="350px">
+                <h2>Sobre nosotros...</h2>
+                <p>Somos un grupo de estudiantes del Cobacam Plantel 08 ubicado en Nunkiní, Campeche. Como estudiantes comprometidos con nuestra formación y comunidad, estamos desarrollando un proyecto con el objetivo de apoyar a un emprendedor local que dirige la Panadería Chan Estrella. Nuestro propósito es poner en práctica las conocimientos adquiridos en nuestras clases, especialmentemente en el área de Página Web y Diseño. Por ello, estamos creando una página web para la Panadería Chan Estrella, que le permita mejorar su presencia en línea, llegar a más personas y fortalecer su negocio. Este proyecto no solo representa una oportunidad de aprendizaje para nosotros, sino también una forma de apoyar al crecimiento de esta panadería y valorar el trabajo de quienes con esfuerzo y dedicación mantienen viva una tradición tan importante como la panadería tradicional.</p>    
+            </div>
+        </section>
+		 <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Panadería Chan Estrella. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/1BHm6xERzy/" target="_blank">Facebook</a> |
+            <a href="https://x.com/ChanEstrella07?t=HAbTTXWbBiZsPvG4Z0NSSg&s=09" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/panaderia.chan.estrella?utm_source=qr&igsh=amZ1MnpxMmwxOW1p" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: panaderiachanestrella@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>

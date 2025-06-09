@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería Chan Estrella</title>
+    <link rel="stylesheet" href="Estilo/Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagenes/logosinnombre.png"></a>
+        <h1>Panadería Chan Estrella</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu() ">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="quienes somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagenes/LogoEmpresaCopia.png" alt="quienes_somos" width="350px">
+            </div>
+            <div class="derecha">
+                <h2>Chan Estrella</h2>
+                <p>Bienvenidos a Panadería Chan Estrella.
+				
+En el corazón de Santa Cruz Ex Hda. Panadería Chan Estrella se ha convertido en un destino imperdible para los amantes del buen pan y la repostería. Desde el presente año, nuestra panadería ha sido sinónimo de calidad, frescura y tradición. Cada día, nos despertamos con el compromiso de ofrecer productos elaborados con ingredientes seleccionados y recetas que han pasado de generación en generación.
+
+Nuestra pasión por la panadería nos impulsa a crear una variedad de deliciosos productos, desde croissants hojaldrados y panes artesanales hasta pasteles y galletas que hacen las delicias de grandes y pequeños. En Chan Estrella, no solo horneamos; creamos momentos especiales para compartir en familia y con amigos.
+
+Te invitamos a explorar nuestra historia, conocer nuestro equipo y descubrir lo que nos hace únicos en el mundo de la panadería. ¡Bienvenidos a la experiencia Chan Estrella!
+</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROMOCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="imagenes/tuti.png" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>Tuti por $3</h2>
+                        <p>Aromatizado con vainilla y espolvoreado con azúcar en la parte superior. Su textura es suave y esponjosa.</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="imagenes/pastelito.png" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Pastelito por $3</h2>
+                        <p>Cubierto con azúcar, hecho de harina lo que le da un sabor dulce y crujiente. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Precios</h2>
+                <ul>
+					<h4>Polvorón: $5.00</h4>
+					<h4>Saramuyo: $5.00</h4>
+					<h4>Piedra: $5.00</h4>
+					<h4>Mantequilla: $6.00</h4>
+					<h4>Hojaldra: $7.00</h4>
+					<h4>Cuernito: $6.00</h4>
+					<h4>Concha: $6.00</h4>
+					<h4>Chocolate: $7.00</h4>
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Especialidades</h2>
+            <div class="brands">
+			<div>
+			<h4>Panes</h4>
+                <img src="imagenes/panconchasinfondo.png" alt="Pan"> 
+			</div>
+			<div>
+			<h4>Galletas</h4>
+                <img src="imagenes/galletassinfondo.png" alt="Galletas">
+			</div>
+			<div>
+			<h4>Barras</h4>
+                <img src="imagenes/barrasinfondo.png" alt="Barras">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Panadería Chan Estrella. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/1BHm6xERzy/" target="_blank">Facebook</a> |
+            <a href="https://x.com/ChanEstrella07?t=HAbTTXWbBiZsPvG4Z0NSSg&s=09" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/panaderia.chan.estrella?utm_source=qr&igsh=amZ1MnpxMmwxOW1p" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: panaderiachanestrella@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
